@@ -1,0 +1,98 @@
+body {
+    background-color: gray;
+}
+
+#gameContainer {
+    flex-direction: column;
+    align-items: center;
+    display: flex
+}
+
+.heading {
+    justify-content: center;
+    display: flex
+}
+
+.gameRules {
+    max-width: 80em;
+    padding: 10px;
+    display: flex
+}
+
+#inputName {
+    border: 2px solid pink;
+    padding: 5px
+}
+
+#buttonName {
+    border: 2px solid pink;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#gameText {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+#gameChoice {
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex
+}
+
+.choiceBtn {
+    border-radius: 2.5px;
+    margin: 5px;
+    display: flex;
+    border-color: pink;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+#player,
+#computer {
+    color: black;
+    font-size: 35px;
+}
+
+#players {
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+
+#scores {
+    width: 7.5rem;
+    background-color: white;
+    border: 2px solid pink;
+    border-radius: 5px;
+    flex-direction: column;
+    text-decoration: underline;
+    display: flex;
+}
+
+#resultText {
+    border-radius: 10px;
+    justify-content: center;
+    padding: 10px;
+    display: flex
+}
+
+.playAgain {
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+#highscores {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+
+/*# sourceMappingURL=index.2f17391c.css.map */
